@@ -1,0 +1,26 @@
+# Python
+__pycache__/
+*.py[cod]
+*.egg-info/
+.venv/
+dist/
+build/
+
+# Jupyter
+.ipynb_checkpoints/
+*.ipynb_checkpoints
+
+# Data and outputs 
+data/preprocessing/
+outputs/figures/*.png
+outputs/figures/*.pdf
+outputs/tb_logs/
+outputs/*.zip
+
+# Models (large binary files)
+outputs/*.zip
+outputs/*.pt
+
+# OS
+.DS_Store
+Thumbs.db
